@@ -220,7 +220,7 @@ function ResumePreview({
         {/* Center: name + objective + contact */}
         <div style={{ flex: 1, textAlign: 'center' }}>
           <div style={{ fontFamily: HEI, fontWeight: 900, fontSize: sf('name', 19), letterSpacing: '8px', lineHeight: 1.1, marginBottom: '3pt' }}>
-            {isZh ? '顾杰' : 'Kris Gu'}
+            {isZh ? '你的名字' : 'Your Name'}
           </div>
           {objective.trim() && (
             <div style={{ fontFamily: SONG, fontWeight: 700, fontSize: sf('contact', 1.5), marginBottom: '4pt' }}>
@@ -354,8 +354,8 @@ export default function ResumeExportModal({ isOpen, onClose, experiences, projec
   const [objective,        setObjective]        = useState(isZh ? '财务BP实习生' : 'Finance / Data Analytics Intern');
   const [age,              setAge]              = useState('22');
   const [location,         setLocation]         = useState(isZh ? '天津' : 'Tianjin');
-  const [phone,            setPhone]            = useState('(+86)19292244363');
-  const [email,            setEmail]            = useState('gujie_kris@163.com');
+  const [phone,            setPhone]            = useState('(+86)XXXXXXXXXXX');
+  const [email,            setEmail]            = useState('your_email@example.com');
   const [logoUrl,          setLogoUrl]          = useState('');
   const [sectionFs,        setSectionFs]        = useState<SectionFs>({ name: 0, contact: 0, edu: 0, exp: 0, proj: 0, skills: 0 });
   const logoInputRef = useRef<HTMLInputElement>(null);

@@ -32,5 +32,5 @@ export async function generateResumePDF(_resumeData: unknown): Promise<void> {
 
   // A4: 210 mm × 297 mm
   pdf.addImage(imgData, 'JPEG', 0, 0, 210, 297);
-  pdf.save('顾杰-天津大学-2024硕-金融-可立即到岗-19292244363.pdf');
+  pdf.save('姓名-学校-学历-专业-求职意向.pdf');
 }

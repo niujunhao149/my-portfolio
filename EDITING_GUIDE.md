@@ -7,7 +7,7 @@ Your portfolio is built with Next.js and stored in this folder. Here's how to ma
 ### 📁 File Structure
 
 ```
-gu1209-portfolio/
+personal-portfolio/
 ├── app/
 │   ├── page.tsx          # Main page content (all text and data)
 │   └── layout.tsx        # Page layout and metadata
@@ -27,7 +27,7 @@ gu1209-portfolio/
 5. **Push to GitHub** to deploy changes:
 
 ```bash
-cd C:\Users\12515\.openclaw\workspace\gu1209-portfolio
+cd /path/to/personal-portfolio
 git add .
 git commit -m "Your change description"
 git push
@@ -46,7 +46,7 @@ nav: { about: '关于我', experience: '实习经历', ... }
 
 ### 2. Hero Section (Line ~30-40)
 ```typescript
-hero: { title: '顾杰', subtitle: '金融 + 技术 | ...', description: '...' }
+hero: { title: '你的名字', subtitle: '金融 + 技术 | ...', description: '...' }
 ```
 
 ### 3. About Section (Line ~45-60)
@@ -124,7 +124,7 @@ All styles are inline with Tailwind CSS classes in `page.tsx`. To change colors,
    git push
    ```
 4. **Wait for deployment** (~2 minutes)
-5. **Visit**: https://gu1209.github.io
+5. **Visit**: https://your-username.github.io
 
 ---
 

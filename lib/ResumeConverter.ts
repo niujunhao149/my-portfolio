@@ -7,23 +7,23 @@ export class ResumeConverter {
   static getBasicInfo(lang: 'zh' | 'en') {
     if (lang === 'zh') {
       return {
-        name: '顾杰',
+        name: '你的名字',
         title: '金融分析师 | 数据科学 | 量化研究',
-        email: 'gujie_kris@163.com',
-        phone: '+86 19292244363',
-        github: 'github.com/gu1209',
-        location: '天津',
-        education: '天津大学 金融硕士（在读）| 中国矿业大学 金融学士',
+        email: 'your_email@example.com',
+        phone: '+86 XXXXXXXXXXX',
+        github: 'github.com/your_github_username',
+        location: '你的城市',
+        education: '你的大学 硕士（在读）| 本科大学 本科',
       };
     } else {
       return {
-        name: 'Kris Gu',
+        name: 'Your Name',
         title: 'Financial Analyst | Data Scientist | Quantitative Research',
-        email: 'gujie_kris@163.com',
-        phone: '+86 19292244363',
-        github: 'github.com/gu1209',
-        location: 'Tianjin, China',
-        education: "Tianjin University - Master's in Finance (in progress) | China University of Mining & Technology - Bachelor's in Finance",
+        email: 'your_email@example.com',
+        phone: '+86 XXXXXXXXXXX',
+        github: 'github.com/your_github_username',
+        location: 'Your City, China',
+        education: "Your University - Master's in Finance (in progress) | Bachelor's University - Bachelor's in Finance",
       };
     }
   }

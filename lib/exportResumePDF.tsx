@@ -5,10 +5,10 @@ import { saveAs } from 'file-saver';
 export function prepareResumeData(selectedExperiences: any[], selectedProjects: any[]): any {
   return {
     basic: {
-      name: '顾杰',
-      jobTitle: '求职意向：财务BP实习生',
-      phone: '(+86)19292244363',
-      email: 'gujie_kris@163.com',
+      name: '你的名字',
+      jobTitle: '求职意向：请填写求职意向',
+      phone: '(+86)XXXXXXXXXXX',
+      email: 'your_email@example.com',
       age: '22',
       location: '天津',
       // 使用本地图片路径
@@ -165,7 +165,7 @@ export function prepareResumeData(selectedExperiences: any[], selectedProjects: 
 export async function exportResumeToPDF(
   selectedExperiences: any[],
   selectedProjects: any[],
-  filename: string = '顾杰-天津大学-2024硕-金融-可立即到岗-19292244363.pdf'
+  filename: string = '姓名-学校-学历-专业-求职意向.pdf'
 ): Promise<void> {
   try {
     // 动态导入html2pdf以避免SSR问题
@@ -190,7 +190,7 @@ export async function exportResumeToPDF(
 export async function exportResumeToPDFOld(
   selectedExperiences: any[],
   selectedProjects: any[],
-  filename: string = '顾杰-天津大学-2024硕-金融-可立即到岗-19292244363.pdf'
+  filename: string = '姓名-学校-学历-专业-求职意向.pdf'
 ): Promise<void> {
   try {
     // 动态导入 @react-pdf/renderer 以避免 SSR 问题
