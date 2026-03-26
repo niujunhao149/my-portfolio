@@ -41,3 +41,9 @@ next-env.d.ts
 
 # OS
 Thumbs.db
+
+# Claude Code
+.claude/
+
+# Personal files
+public/images/profile.jpg.base64.txt

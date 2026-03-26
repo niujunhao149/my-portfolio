@@ -1,6 +1,6 @@
-# gu1209.github.io
+# personal-portfolio
 
-A modern, multilingual personal portfolio website built with Next.js, Tailwind CSS, and i18next.
+A modern, multilingual personal portfolio website built with Next.js, Tailwind CSS, and i18next. Use this as a template to build your own portfolio site.
 
 ## Features
 
@@ -28,7 +28,7 @@ npm run export
 
 ## Deploy to GitHub Pages
 
-1. Create a new repository named `gu1209.github.io` on GitHub
+1. Create a new repository named `your-username.github.io` on GitHub
 2. Push this code to the repository
 3. Go to repository Settings → Pages
 4. Set source to "GitHub Actions" or "main branch /docs folder"

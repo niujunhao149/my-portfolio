@@ -42,7 +42,7 @@ function E({ id, def, as = 'span', cls, style }: {
 const translations = {
   zh: {
     nav: { about: '关于我', experience: '实习经历', projects: '研究项目', skills: '技能与证书', now: '现在', notes: '学习笔记', contact: '联系方式' },
-    hero: { title: '顾杰', subtitle: '金融 × 技术 | 数据分析 | LLM应用', description: '天津大学金融硕士在读，专注于金融数据分析、机器学习与LLM在金融领域的应用。', contact: '联系我', github: 'GitHub' },
+    hero: { title: '你的名字', subtitle: '金融 × 技术 | 数据分析 | LLM应用', description: '天津大学金融硕士在读，专注于金融数据分析、机器学习与LLM在金融领域的应用。', contact: '联系我', github: 'GitHub' },
     about: { title: '关于我', education: '教育背景', intro: '天津大学（985）金融硕士在读，研究方向为机器学习在金融市场的应用。本科毕业于中国矿业大学（211）金融专业。具备扎实的Python数据分析能力、机器学习基础和金融专业知识。', strengths: '核心优势：CPA专业阶段4科通过 + 金融专业 + Python技术 + LLM应用经验，复合背景突出。', degree: '金融硕士', university: '天津大学', faculty: '管理与经济学部', facultyEn: 'Faculty of Management and Economics', major: '主修课程：大数据与金融风险、金融随机分析、金融计量经济学、金融数据分析、衍生金融工具、行为金融学、投资学、公司金融', period: '2024.09 - 2027.01（预计）', bachelor: '金融学士', bachelorUniv: '中国矿业大学（211）', bachelorFaculty: '经济管理学院', bachelorMajor: '主修课程：货币金融学、宏观经济学、微观经济学、管理学、商业银行经营管理、金融数据分析、大数据分析技术、金融经济学、证券投资学、基础会计学、Python数据分析', bachelorPeriod: '2020.09 - 2024.06', bachelorGpa: 'GPA: 4.15/5.0，专业前15%，二等学业奖学金' },
     experience: { title: '实习经历' },
     projects: { title: '研究项目', tech: '技术栈', objective: '研究目标', methodology: '研究方法', design: '研究设计', status: '状态' },
@@ -56,7 +56,7 @@ const translations = {
   },
   en: {
     nav: { about: 'About', experience: 'Experience', projects: 'Projects', skills: 'Skills & Certs', now: 'Now', notes: 'Notes', contact: 'Contact' },
-    hero: { title: 'Kris Gu', subtitle: 'Finance × Technology | Data Analytics | LLM Applications', description: "Master's student at Tianjin University focusing on financial data analytics, machine learning, and LLM applications in finance.", contact: 'Contact Me', github: 'GitHub' },
+    hero: { title: 'Your Name', subtitle: 'Finance × Technology | Data Analytics | LLM Applications', description: "Master's student at Tianjin University focusing on financial data analytics, machine learning, and LLM applications in finance.", contact: 'Contact Me', github: 'GitHub' },
     about: { title: 'About Me', education: 'Education', intro: "Master's in Finance at Tianjin University (985), research focus on machine learning in financial markets. Bachelor's in Finance from China University of Mining and Technology (211). Strong skills in Python data analytics, machine learning, and financial knowledge.", strengths: 'Core strengths: CPA 4 subjects passed + Finance expertise + Python programming + LLM application experience.', degree: "Master's in Finance", university: 'Tianjin University', faculty: 'Faculty of Management and Economics', major: 'Core Courses: Big Data & Financial Risk, Financial Stochastic Analysis, Financial Econometrics, Financial Data Analysis, Derivatives, Behavioral Finance, Investment, Corporate Finance', period: '2024.09 - 2027.01 (expected)', bachelor: 'Bachelor in Finance', bachelorUniv: 'China University of Mining and Technology (211)', bachelorFaculty: 'School of Economics & Management', bachelorMajor: 'Core Courses: Money & Banking, Macroeconomics, Microeconomics, Management, Commercial Bank Management, Financial Data Analysis, Big Data Analytics, Financial Economics, Securities Investment, Basic Accounting, Python Data Analysis', bachelorPeriod: 'Sep 2020 - Jun 2024', bachelorGpa: 'GPA: 4.15/5.0, Top 15% in major, Second-class Academic Scholarship' },
     experience: { title: 'Internship Experience' },
     projects: { title: 'Research Projects', tech: 'Tech Stack', objective: 'Objective', methodology: 'Methodology', design: 'Research Design', status: 'Status' },
@@ -253,7 +253,7 @@ const defaultNotes: NoteItem[] = [
     id: 'default-1',
     title: '税二·错题复盘·综合提高（做题不顺畅）',
     tag: 'CTA 税法二',
-    href: 'https://share.mubu.com/doc/3TZehcyQt6R',
+    href: '#',
   },
 ];
 
@@ -514,8 +514,8 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <a href="#" className="flex items-center gap-2.5 hover:opacity-80 transition">
-              <div className="w-9 h-9 bg-gradient-to-br from-primary-500 to-primary-700 rounded-xl flex items-center justify-center text-white text-sm font-bold shadow-md">KG</div>
-              <span className="font-semibold text-gray-900 tracking-tight">Kris Gu</span>
+              <div className="w-9 h-9 bg-gradient-to-br from-primary-500 to-primary-700 rounded-xl flex items-center justify-center text-white text-sm font-bold shadow-md">YN</div>
+              <span className="font-semibold text-gray-900 tracking-tight">Your Name</span>
             </a>
 
             {/* Desktop nav */}
@@ -674,7 +674,7 @@ export default function Home() {
                   {t.hero.contact}
                 </a>
                 <a
-                  href="https://github.com/gu1209"
+                  href="https://github.com/your_github_username"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 border-2 border-gray-200 text-gray-700 px-6 py-3 rounded-xl hover:border-primary-400 hover:text-primary-600 transition font-medium"
@@ -689,7 +689,7 @@ export default function Home() {
             <div className="flex-shrink-0">
               <div className="relative float-animate">
                 <div className="w-72 h-72 md:w-80 md:h-80 rounded-2xl overflow-hidden border-2 border-primary-100 shadow-2xl" style={{ boxShadow: '0 0 40px rgba(59,130,246,0.15), 0 25px 50px rgba(0,0,0,0.12)' }}>
-                  <img src="/images/profile.jpg" alt="Kris Gu" className="w-full h-full object-cover" />
+                  <img src="/images/profile.jpg" alt="Your Name" className="w-full h-full object-cover" />
                 </div>
                 {/* Status badge */}
                 <div className="absolute -bottom-4 -right-4 bg-white rounded-2xl shadow-xl p-4 border border-gray-100">
@@ -1231,47 +1231,47 @@ export default function Home() {
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
             <a
-              href="mailto:gujie_kris@163.com"
+              href="mailto:your_email@example.com"
               className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/20 hover:scale-[1.03] transition-all duration-200"
             >
               <Mail className="mx-auto mb-3" size={26} />
               <h3 className="font-semibold mb-1 text-sm">{t.contact.email}</h3>
-              <p className="text-primary-100 text-xs">gujie_kris@163.com</p>
+              <p className="text-primary-100 text-xs">your_email@example.com</p>
             </a>
             <a
-              href="https://github.com/gu1209"
+              href="https://github.com/your_github_username"
               target="_blank" rel="noopener noreferrer"
               className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/20 hover:scale-[1.03] transition-all duration-200"
             >
               <Github className="mx-auto mb-3" size={26} />
               <h3 className="font-semibold mb-1 text-sm">{t.contact.github}</h3>
-              <p className="text-primary-100 text-xs">gu1209</p>
+              <p className="text-primary-100 text-xs">your_github_username</p>
             </a>
             <a
-              href="https://xhslink.com/m/5Q4gGqHQfrc"
+              href="https://xiaohongshu.com"
               target="_blank" rel="noopener noreferrer"
               className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/20 hover:scale-[1.03] transition-all duration-200"
             >
               <div className="flex justify-center mb-3"><XhsIcon size={26} /></div>
               <h3 className="font-semibold mb-1 text-sm">{t.contact.xiaohongshu}</h3>
-              <p className="text-primary-100 text-xs">UID: 293946035</p>
+              <p className="text-primary-100 text-xs">UID: XXXXXXXXX</p>
             </a>
             <a
-              href="https://b23.tv/qt7QGN9"
+              href="https://bilibili.com"
               target="_blank" rel="noopener noreferrer"
               className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/20 hover:scale-[1.03] transition-all duration-200"
             >
               <div className="flex justify-center mb-3"><BiliIcon size={26} /></div>
               <h3 className="font-semibold mb-1 text-sm">{t.contact.bilibili}</h3>
-              <p className="text-primary-100 text-xs">清祀朔九</p>
+              <p className="text-primary-100 text-xs">你的B站ID</p>
             </a>
             <a
-              href="tel:+8619292244363"
+              href="tel:+86XXXXXXXXXX"
               className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/20 hover:scale-[1.03] transition-all duration-200"
             >
               <Phone className="mx-auto mb-3" size={26} />
               <h3 className="font-semibold mb-1 text-sm">{t.contact.phone}</h3>
-              <p className="text-primary-100 text-xs">+86 192 9224 4363</p>
+              <p className="text-primary-100 text-xs">+86 XXX XXXX XXXX</p>
             </a>
           </div>
 
@@ -1292,8 +1292,8 @@ export default function Home() {
           )}
           <div className="w-full flex flex-col md:flex-row justify-between items-center gap-3 border-t border-gray-800 pt-5">
             <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center text-white text-sm font-bold">KG</div>
-              <span className="font-medium">Kris Gu</span>
+              <div className="w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center text-white text-sm font-bold">YN</div>
+              <span className="font-medium">Your Name</span>
             </div>
             <p className="text-gray-500 text-sm">© {new Date().getFullYear()} · Built with Next.js & Tailwind CSS</p>
           </div>
