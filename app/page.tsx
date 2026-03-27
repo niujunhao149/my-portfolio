@@ -181,21 +181,6 @@ const projects = [
     statusEn: 'Ongoing, preparing for submission (Jan 2025 - Present)',
   },
   {
-    title: '交通AI大模型与平台（Vibe Coding方向）',
-    titleEn: 'AI Traffic Platform (Vibe Coding)',
-    subtitle: '基于 Claude Code 的城市交通 AI 应用场景规划与平台设计',
-    subtitleEn: 'Urban Traffic AI Application Planning & Platform Design via Claude Code',
-    tech: ['Claude Code', 'Vibe Coding', 'Next.js', 'Python', 'AI Agent', 'SaaS设计'],
-    objective: '基于自动驾驶与城市交通的行业经验，利用 Claude Code 探索 Vibe Coding 开发范式，规划城市级交通 AI 应用场景，设计 1+N+X 平台架构（基础设施→应用层→上层业务）。',
-    objectiveEn: 'Leveraging domain knowledge in autonomous driving and urban traffic, explore Vibe Coding paradigm with Claude Code; plan city-level AI traffic application scenarios; design 1+N+X platform architecture (infrastructure → application layer → business layer).',
-    methodology: '识别 25 个城市交通片区 AI 应用场景，从交通片区使用量映射 AI 落地方案；结合 AI Agent、SaaS 商业模式与知识 IP 产品的运营经验进行商业化路径设计。',
-    methodologyEn: 'Identified 25 city-level traffic AI application scenarios, mapped AI deployment solutions from traffic zone usage data; combined AI Agent, SaaS business model, and knowledge IP operation experience for commercialization path design.',
-    design: '使用 Claude Code 进行全栈 Vibe Coding 开发实践（前端 Next.js + 后端 Python），同步开发了 ESS 路测数据自动整理工具，验证 AI 辅助开发效率提升路径。',
-    designEn: 'Full-stack Vibe Coding practice with Claude Code (Next.js frontend + Python backend); concurrently built ESS roadtest data automation tool to validate AI-assisted development efficiency gains.',
-    status: '进行中 (2025.12 - 至今)',
-    statusEn: 'Ongoing (Dec 2025 - Present)',
-  },
-  {
     title: 'IP知识付费产品 — 0到1增长',
     titleEn: 'Knowledge IP Product — 0-to-1 Growth',
     subtitle: '全流程产品策略转型与数据驱动增长',
@@ -349,33 +334,6 @@ const defaultNow: NowItem[] = [
   { emoji: '⌨️', category: '在学', categoryEn: 'Learning', content: 'Vibe Coding 深度实践：用 Claude Code 构建交通 AI 平台，探索 AI 辅助全栈开发' },
   { emoji: '💬', category: '在想', categoryEn: 'Thinking', content: '技术型 PM 的壁垒在哪里？如何把强化学习背景和 AI 工具链融合成真正的差异化能力' },
 ];
-
-/** Mouse cursor sparkle effect */
-function CursorSparkle() {
-  useEffect(() => {
-    let frame = 0;
-    const handle = (e: MouseEvent) => {
-      // Throttle: only create a star every 3rd event
-      frame++;
-      if (frame % 3 !== 0) return;
-      const star = document.createElement('div');
-      star.className = 'cursor-star';
-      star.style.left = `${e.clientX}px`;
-      star.style.top  = `${e.clientY}px`;
-      // Random size 3–7px and random hue for variety
-      const size = 3 + Math.random() * 4;
-      const hues = ['#60a5fa','#a78bfa','#34d399','#f472b6','#fbbf24'];
-      star.style.width  = `${size}px`;
-      star.style.height = `${size}px`;
-      star.style.background = hues[Math.floor(Math.random() * hues.length)];
-      document.body.appendChild(star);
-      setTimeout(() => star.remove(), 700);
-    };
-    window.addEventListener('mousemove', handle);
-    return () => window.removeEventListener('mousemove', handle);
-  }, []);
-  return null;
-}
 
 // ============== MAIN COMPONENT ==============
 export default function Home() {
@@ -1244,24 +1202,6 @@ export default function Home() {
               <p className="text-primary-100 text-xs">niujunhao149</p>
             </a>
             <a
-              href="https://xiaohongshu.com"
-              target="_blank" rel="noopener noreferrer"
-              className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/20 hover:scale-[1.03] transition-all duration-200"
-            >
-              <div className="flex justify-center mb-3"><XhsIcon size={26} /></div>
-              <h3 className="font-semibold mb-1 text-sm">{t.contact.xiaohongshu}</h3>
-              <p className="text-primary-100 text-xs">UID: XXXXXXXXX</p>
-            </a>
-            <a
-              href="https://bilibili.com"
-              target="_blank" rel="noopener noreferrer"
-              className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/20 hover:scale-[1.03] transition-all duration-200"
-            >
-              <div className="flex justify-center mb-3"><BiliIcon size={26} /></div>
-              <h3 className="font-semibold mb-1 text-sm">{t.contact.bilibili}</h3>
-              <p className="text-primary-100 text-xs">你的B站ID</p>
-            </a>
-            <a
               href="tel:+8613943142907"
               className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/20 hover:scale-[1.03] transition-all duration-200"
             >
@@ -1295,8 +1235,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-
-      <CursorSparkle />
 
       <ResumeExportModal
         isOpen={isExportModalOpen}

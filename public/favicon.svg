@@ -1,4 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect fill="#2563eb" width="32" height="32" rx="6"/>
-  <text x="16" y="22" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">KG</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <text y=".9em" font-size="90">🐂</text>
 </svg>
