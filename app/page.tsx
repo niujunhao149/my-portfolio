@@ -141,10 +141,10 @@ const experiences = [
     logo: '',
   },
   {
-    company: 'IP知识付费产品（自主创业）',
-    companyEn: 'Knowledge IP Product (Entrepreneurship)',
-    role: '创始团队成员',
-    roleEn: 'Founding Team Member',
+    company: 'IP知识付费产品（个人项目）',
+    companyEn: 'Knowledge IP Product (Personal Project)',
+    role: '主理人',
+    roleEn: 'Founder',
     period: '2024年1月 - 2025年6月',
     periodEn: 'Jan 2024 - Jun 2025',
     highlights: [

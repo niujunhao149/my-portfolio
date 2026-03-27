@@ -104,7 +104,7 @@ export const STAR_DATA: Record<string, StarEntry[]> = {
     },
   ],
 
-  'IP知识付费产品（自主创业）': [
+  'IP知识付费产品（个人项目）': [
     {
       title: '产品形态转型：实体书→数字课程',
       titleEn: 'Product Pivot: Physical Book → Digital Course',

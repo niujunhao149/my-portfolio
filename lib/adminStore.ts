@@ -107,7 +107,7 @@ export function useAdminContent() {
     if (typeof window !== 'undefined') localStorage.removeItem(KEY);
   }, []);
 
-  const login = (pw: string) => { if (pw === 'your_password') { setIsAdmin(true); return true; } return false; };
+  const login = (pw: string) => { if (pw === 'njh/20020102') { setIsAdmin(true); return true; } return false; };
   const logout = () => setIsAdmin(false);
 
   return { isAdmin, get, save, reset, login, logout };
