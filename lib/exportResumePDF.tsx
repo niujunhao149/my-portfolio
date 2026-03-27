@@ -5,11 +5,11 @@ import { saveAs } from 'file-saver';
 export function prepareResumeData(selectedExperiences: any[], selectedProjects: any[]): any {
   return {
     basic: {
-      name: '你的名字',
-      jobTitle: '求职意向：请填写求职意向',
-      phone: '(+86)XXXXXXXXXXX',
-      email: 'your_email@example.com',
-      age: '22',
+      name: '牛俊浩',
+      jobTitle: 'ADAS PPM | AI产品经理 | 系统工程',
+      phone: '(+86)13943142907',
+      email: 'junhao@tju.edu.cn',
+      age: '24',
       location: '天津',
       // 使用本地图片路径
       logoUrl: undefined, // SVG暂不支持，需要转换为PNG

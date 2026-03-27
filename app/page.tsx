@@ -44,30 +44,30 @@ function E({ id, def, as = 'span', cls, style }: {
 const translations = {
   zh: {
     nav: { about: '关于我', experience: '实习经历', projects: '研究项目', skills: '技能与证书', now: '现在', notes: '学习笔记', contact: '联系方式' },
-    hero: { title: '你的名字', subtitle: '金融 × 技术 | 数据分析 | LLM应用', description: '天津大学金融硕士在读，专注于金融数据分析、机器学习与LLM在金融领域的应用。', contact: '联系我', github: 'GitHub' },
-    about: { title: '关于我', education: '教育背景', intro: '天津大学（985）金融硕士在读，研究方向为机器学习在金融市场的应用。本科毕业于中国矿业大学（211）金融专业。具备扎实的Python数据分析能力、机器学习基础和金融专业知识。', strengths: '核心优势：CPA专业阶段4科通过 + 金融专业 + Python技术 + LLM应用经验，复合背景突出。', degree: '金融硕士', university: '天津大学', faculty: '管理与经济学部', facultyEn: 'Faculty of Management and Economics', major: '主修课程：大数据与金融风险、金融随机分析、金融计量经济学、金融数据分析、衍生金融工具、行为金融学、投资学、公司金融', period: '2024.09 - 2027.01（预计）', bachelor: '金融学士', bachelorUniv: '中国矿业大学（211）', bachelorFaculty: '经济管理学院', bachelorMajor: '主修课程：货币金融学、宏观经济学、微观经济学、管理学、商业银行经营管理、金融数据分析、大数据分析技术、金融经济学、证券投资学、基础会计学、Python数据分析', bachelorPeriod: '2020.09 - 2024.06', bachelorGpa: 'GPA: 4.15/5.0，专业前15%，二等学业奖学金' },
+    hero: { title: '牛俊浩', subtitle: '系统工程 × AI | 自动驾驶 PPM | Vibe Coding', description: '天津大学系统工程硕士在读，Momenta ADAS规划实习生（PPM方向），专注于自动驾驶CP规划功能、AI辅助开发与自动化工具设计。', contact: '联系我', github: 'GitHub' },
+    about: { title: '关于我', education: '教育背景', intro: '天津大学（985）系统工程硕士在读，研究方向为强化学习与智能控制系统。本科同样毕业于天津大学工业工程专业。现任职 Momenta ADAS规划方向 PPM实习生，负责 Harz 平台 CP Planning 功能全链路管理，擅长使用 Claude Code 进行 Vibe Coding 和自动化工具设计。', strengths: '核心优势：自动驾驶 ADAS 产品经验 + 强化学习算法背景 + Vibe Coding / Claude Code 熟练使用 + AI 产品设计能力，技术型产品经理复合背景。', degree: '系统工程硕士', university: '天津大学', faculty: '智能与计算学部', facultyEn: 'School of Intelligence and Computing', major: '主修课程：强化学习、系统建模、运筹优化、系统分析、控制理论', period: '2024.09 - 2027.06（预计）', bachelor: '工业工程学士', bachelorUniv: '天津大学（985）', bachelorFaculty: '管理与经济学部', bachelorMajor: '主修课程：工业工程、运筹学、系统工程导论、Python数据分析、数据库技术、生产运营管理、质量管理', bachelorPeriod: '2020.09 - 2024.07', bachelorGpa: '均分 88.66，硕士均分 90.81' },
     experience: { title: '实习经历' },
     projects: { title: '研究项目', tech: '技术栈', objective: '研究目标', methodology: '研究方法', design: '研究设计', status: '状态' },
-    skills: { title: '技能与证书', programming: '编程语言', dataTools: '数据分析工具', finance: '金融能力', certifications: '专业认证', languages: '语言能力' },
+    skills: { title: '技能与证书', programming: '编程与开发', dataTools: 'AI与工具链', finance: '专业能力', certifications: '认证与项目', languages: '语言能力' },
     now: { title: '最近在…', subtitle: '动态更新，记录当下在做的事' },
     notes: { title: '学习笔记', subtitle: '整理的备考笔记与错题复盘，持续更新中' },
     contact: {
       title: '联系方式', email: '邮箱', github: 'GitHub', phone: '电话', xiaohongshu: '小红书', bilibili: 'B站',
-      message: '寻求金融分析、数据科学或量化相关实习机会。欢迎联系！',
+      message: '欢迎联系！对自动驾驶 PPM、AI 产品经理或系统工程相关方向感兴趣，期待交流。',
     },
   },
   en: {
     nav: { about: 'About', experience: 'Experience', projects: 'Projects', skills: 'Skills & Certs', now: 'Now', notes: 'Notes', contact: 'Contact' },
-    hero: { title: 'Your Name', subtitle: 'Finance × Technology | Data Analytics | LLM Applications', description: "Master's student at Tianjin University focusing on financial data analytics, machine learning, and LLM applications in finance.", contact: 'Contact Me', github: 'GitHub' },
-    about: { title: 'About Me', education: 'Education', intro: "Master's in Finance at Tianjin University (985), research focus on machine learning in financial markets. Bachelor's in Finance from China University of Mining and Technology (211). Strong skills in Python data analytics, machine learning, and financial knowledge.", strengths: 'Core strengths: CPA 4 subjects passed + Finance expertise + Python programming + LLM application experience.', degree: "Master's in Finance", university: 'Tianjin University', faculty: 'Faculty of Management and Economics', major: 'Core Courses: Big Data & Financial Risk, Financial Stochastic Analysis, Financial Econometrics, Financial Data Analysis, Derivatives, Behavioral Finance, Investment, Corporate Finance', period: '2024.09 - 2027.01 (expected)', bachelor: 'Bachelor in Finance', bachelorUniv: 'China University of Mining and Technology (211)', bachelorFaculty: 'School of Economics & Management', bachelorMajor: 'Core Courses: Money & Banking, Macroeconomics, Microeconomics, Management, Commercial Bank Management, Financial Data Analysis, Big Data Analytics, Financial Economics, Securities Investment, Basic Accounting, Python Data Analysis', bachelorPeriod: 'Sep 2020 - Jun 2024', bachelorGpa: 'GPA: 4.15/5.0, Top 15% in major, Second-class Academic Scholarship' },
+    hero: { title: 'Junhao Niu', subtitle: 'Systems Engineering × AI | ADAS PPM | Vibe Coding', description: "Master's student at Tianjin University (Systems Engineering), ADAS Planning Intern (PPM) at Momenta. Focused on CP Planning features, AI-assisted development (Vibe Coding / Claude Code) and automation tool design.", contact: 'Contact Me', github: 'GitHub' },
+    about: { title: 'About Me', education: 'Education', intro: "Master's in Systems Engineering at Tianjin University (985), research in reinforcement learning and intelligent control systems. Bachelor's in Industrial Engineering also from Tianjin University. Currently ADAS Planning Intern (PPM) at Momenta, managing full-lifecycle CP Planning features for the Harz platform. Proficient in Vibe Coding with Claude Code and automation tool design.", strengths: 'Core strengths: ADAS product management experience + RL algorithm background + Vibe Coding / Claude Code proficiency + AI product design capability — technical PM composite profile.', degree: "Master's in Systems Engineering", university: 'Tianjin University', faculty: 'School of Intelligence and Computing', major: 'Core Courses: Reinforcement Learning, System Modeling, Operations Research, Systems Analysis, Control Theory', period: 'Sep 2024 - Jun 2027 (expected)', bachelor: 'Bachelor in Industrial Engineering', bachelorUniv: 'Tianjin University (985)', bachelorFaculty: 'Faculty of Management and Economics', bachelorMajor: 'Core Courses: Industrial Engineering, Operations Research, Systems Engineering, Python Data Analysis, Database Technology, Production & Operations Management, Quality Management', bachelorPeriod: 'Sep 2020 - Jul 2024', bachelorGpa: 'Avg Score: 88.66 (Undergrad), 90.81 (Graduate)' },
     experience: { title: 'Internship Experience' },
     projects: { title: 'Research Projects', tech: 'Tech Stack', objective: 'Objective', methodology: 'Methodology', design: 'Research Design', status: 'Status' },
-    skills: { title: 'Skills & Certifications', programming: 'Programming', dataTools: 'Data Tools', finance: 'Finance Skills', certifications: 'Certifications', languages: 'Languages' },
+    skills: { title: 'Skills & Certifications', programming: 'Programming & Dev', dataTools: 'AI & Tools', finance: 'Domain Skills', certifications: 'Certs & Projects', languages: 'Languages' },
     now: { title: 'Now', subtitle: 'What I\'m currently into — updated live' },
     notes: { title: 'Study Notes', subtitle: 'Exam prep notes & mistake reviews — updated regularly' },
     contact: {
       title: 'Get In Touch', email: 'Email', github: 'GitHub', phone: 'Phone', xiaohongshu: 'Xiaohongshu', bilibili: 'Bilibili',
-      message: 'Seeking internships in financial analysis, data science, or quantitative roles. Feel free to reach out!',
+      message: 'Open to ADAS PM, AI Product Manager, or Systems Engineering related opportunities. Feel free to reach out!',
     },
   },
 };
@@ -77,184 +77,178 @@ const experiences = [
   {
     company: 'Momenta',
     companyEn: 'Momenta',
-    role: '资金分析实习生',
-    roleEn: 'Fund Analysis Intern',
-    period: '2025年12月 - 至今',
-    periodEn: 'Dec 2025 - Present',
+    role: 'ADAS规划实习生（PPM方向）',
+    roleEn: 'ADAS Planning Intern (PPM)',
+    period: '2026年1月 - 至今',
+    periodEn: 'Jan 2026 - Present',
     highlights: [
-      '基于Coze平台搭建AI智能体询价系统，支持自然语言查询（如"向外资行询问1000万美元，三个月双币存款的价格"），集成QQ邮箱（IMAP收取+Outlook自动转发）自动抓取银行回复，AI提取价格/期限/风险等级生成结构化表格，效率提升60%',
-      '开发市场资讯周报和日报生成skill，覆盖美国/中国/全球经济三大维度，基于Momenta重点关注自动筛选信息，全自动生成飞书云文档并推送至财务团队，减少人工编译时间80%',
-      '搭建资金余额、流水监控、理财产品三大飞书仪表板看板，利用Claude Code开发每日数据报告自动化生成skill，实现余额分布、流水预测、理财到期等多维度监控',
-      '针对美国《1940年投资公司法》开展合规研究，梳理资本保值投资定义与适用条件，评估Momenta理财结构是否符合90%资本保值要求，提出投资限制建议支持上市筹备',
-      '处理美元、日元、韩元等多币种海外应付账款，主要为供应商货款支付，使用花旗银行网银完成跨境付款操作',
+      '负责 Harz 平台 CP Planning 功能全链路 PPM 管理，覆盖 ABSM、ALCA、ALSA、ACC、AES、CMSR 等核心 ADAS 功能的 TLM 建单 → RPA 申请 → PR 评审 → FO 提交全流程，累计跟进 10+ 个功能版本迭代',
+      '使用 Claude Code（Vibe Coding）独立设计并开发 ESS 路测数据自动整理 Web 工具，实现路测事件数据一键抓取、飞书文档自动生成，将原本数小时手工整理工作压缩至分钟级',
+      '利用 VSim/MViz 对 ACC 越线、ALCA 偏差、急停减速等典型 ADAS 场景进行复现分析，输出场景分析报告；维护 Scenario Set 并参与 AES 数据标注',
+      '跟踪维护 Harz CP 版本需求表，每周提取 Release 版本信息更新飞书文档，协调 cp_planning / control / driving_control 多模块版本对齐',
+      '深度参与 CMSR 客户群维护，跟踪客户 Jira 缺陷推进方案落地；参与 FO 随车准备，制定路测数据采集方案（hmi_console_event / light_recording / manual_recording）',
     ],
     highlightsEn: [
-      'Built AI inquiry system on Coze platform supporting natural language queries (e.g., "inquire about 10M USD three-month dual-currency deposit rates from foreign banks"), integrated QQ email (IMAP retrieval + Outlook auto-forward) to auto-capture bank responses, AI extracts price/tenor/risk level to generate structured tables, efficiency improved by 60%',
-      'Developed market intelligence weekly/daily report generation skills covering US/China/Global economy dimensions, auto-filtering based on Momenta focus areas, fully automated Feishu doc creation and distribution to finance team, reducing manual compilation time by 80%',
-      'Built three Feishu dashboard boards: fund balance, cash flow monitoring, wealth management products, leveraged Claude Code to develop daily data report automation skills, enabling multi-dimensional monitoring of balance distribution, cash flow forecasting, wealth maturity tracking',
-      'Conducted compliance research on US Investment Company Act of 1940, sorted out definitions and conditions for capital preservation investments, assessed whether Momenta\'s wealth structure meets 90% capital preservation requirement, provided investment restriction recommendations for IPO preparation',
-      'Handled multi-currency overseas accounts payable in USD, JPY, KRW, primarily for supplier goods payments, used Citibank online banking for cross-border payments',
+      'Managed full-lifecycle PPM for CP Planning features on Harz platform (ABSM, ALCA, ALSA, ACC, AES, CMSR), handling TLM → RPA → PR → FO pipeline across 10+ feature iterations',
+      'Used Claude Code (Vibe Coding) to design and build an ESS roadtest data automation web tool — one-click event data collection and automated Feishu doc generation, reducing hours of manual work to minutes',
+      'Performed scenario reproduction and analysis (ACC crossing, ALCA deviation, emergency braking) via VSim/MViz; maintained Scenario Sets and participated in AES data annotation',
+      'Maintained Harz CP version requirements table; extracted weekly Release info and updated Feishu docs; coordinated multi-module version alignment (cp_planning / control / driving_control)',
+      'Maintained CMSR client group and tracked client Jira defects; participated in FO vehicle preparation including roadtest data collection planning',
     ],
     highlightsBold: [0, 1, 2],
     logo: '/logos/momenta.svg',
   },
   {
-    company: '中化天津有限公司',
-    companyEn: 'Sinochem Tianjin Co., Ltd.',
-    role: '产权交易实习生',
-    roleEn: 'Asset Transaction Intern',
-    period: '2025年8月 - 2025年11月',
-    periodEn: 'Aug 2025 - Nov 2025',
+    company: '字节跳动',
+    companyEn: 'ByteDance',
+    role: '豆包大模型数据项目成员',
+    roleEn: 'Doubao LLM Data Project Member',
+    period: '2025年10月 - 2025年12月',
+    periodEn: 'Oct 2025 - Dec 2025',
     highlights: [
-      '参与多个资产处置与破产重整项目，负责现场踏勘与流程合规支持',
-      '在"蓝星清洗资产转让"项目中现场带领意向方实地探勘并详细介绍资产，项目最终实现挂牌价50%溢价成交',
-      '依据《公司法》《企业破产法》及中国中化内部制度，为"厦门长蓝"破产项目制定完整工作流程',
-      '参与中化天津物流"十五五"规划研究，探索利用存量土地厂房建设仓储设施并接入中欧班列',
-      '为上海写字楼出售项目提供分析支持，依据国资管理要求梳理低效资产清单并对比区域租金水平',
-      '独立撰写3篇项目通讯稿，发布在中化天津官方公众号',
+      '构建多跳推理与事实核查高难度查询数据集，优化大模型在长链搜索场景下的逻辑闭合能力，为 SFT/RLHF 训练管道输出高质量评测数据',
+      '设计并构建 Pandas/SQL 数据分析能力评测集，验证模型生成代码的可执行性与正确性，定位统计偏差 Bad Case',
+      '负责垂直品类数据质检，通过率指标持续位于项目前列，直接支撑豆包模型版本迭代',
     ],
     highlightsEn: [
-      'Participated in multiple asset disposal and bankruptcy restructuring projects, responsible for site inspection and process compliance support',
-      'In "Blue Star Cleaning Asset Transfer" project, led potential buyers for on-site inspection and provided detailed asset introduction, project ultimately achieved 50% premium over listing price',
-      'Developed complete workflow for "Xiamen Changlan" bankruptcy project according to Company Law, Enterprise Bankruptcy Law, and Sinochem internal regulations',
-      'Contributed to Sinochem Tianjin Logistics "15th Five-Year Plan" research, explored utilizing existing land/warehouses for storage facilities and connecting to China-Europe Railway Express',
-      'Provided analytical support for Shanghai office building sale project, compiled low-efficiency asset list per state-owned asset management requirements and compared regional rental levels',
-      'Independently wrote 3 project newsletters published on Sinochem Tianjin official WeChat account',
-    ],
-    highlightsBold: [1, 5],
-    logo: '/logos/sinochem.svg',
-  },
-  {
-    company: '中科曙光（存储产品事业部）',
-    companyEn: 'Sugon (Storage Products Division)',
-    role: '项目管理实习生',
-    roleEn: 'Project Management Intern',
-    period: '2025年3月 - 2025年6月',
-    periodEn: 'Mar 2025 - Jun 2025',
-    highlights: [
-      '管理412d-1230（2025年3月发版）和421SP1（2025年7月发版）两个版本全生命周期，覆盖需求排期、进度跟踪、评审组织、问题闭环',
-      '组织87场评审会议（产品需求/技术需求/原型设计/Demo/测试用例），独立主持20+场Bug评审会并主导讨论与责任分配',
-      '建立标准化评审登记模板，统一记录问题、责任人、截止时间，减少重复沟通约30-50%',
-      '使用Jira搭建项目看板管理需求和缺陷，配置Confluence空间规范文档结构，研发信息检索效率提升40%',
-      '完成版本数据统计（需求完成率、代码产出、Bug解决率），开展延期Bug根因分析，主导文档合规审计',
-    ],
-    highlightsEn: [
-      'Managed full lifecycle of versions 412d-1230 (released Mar 2025) and 421SP1 (released Jul 2025), covering requirement scheduling, progress tracking, review coordination, issue closure',
-      'Organized 87 review meetings (product requirements/technical requirements/prototype design/Demo/test cases), independently hosted 20+ bug review meetings and led discussions with responsibility assignment',
-      'Established standardized review registration template, unified recording of issues, owners, deadlines, reduced repetitive communication by 30-50%',
-      'Built project Kanban using Jira for requirement and defect management, configured Confluence spaces for documentation standards, R&D information retrieval efficiency improved by 40%',
-      'Completed version data statistics (requirement completion rate, code output, bug resolution rate), conducted root cause analysis of delayed bugs, led documentation compliance audit',
-    ],
-    highlightsBold: [0, 2, 3],
-    logo: '/logos/sugon.svg',
-  },
-  {
-    company: '东吴证券（研究所）',
-    companyEn: 'CSC Financial (Research Institute)',
-    role: '行业研究实习生（电子设备与新能源）',
-    roleEn: 'Industry Research Intern (Electronics & New Energy)',
-    period: '2024年10月 - 2025年3月',
-    periodEn: 'Oct 2024 - Mar 2025',
-    highlights: [
-      '深度参与三花智控（汽零）和厦门钨业（钨钼材料）深度报告，搭建DCF与相对估值模型（PE/PEG）',
-      '持续跟踪宁德时代、赣锋锂业等锂电池产业链龙头，整理上市公司调研及行业会议纪要20+篇',
-      '按月更新正极/负极/隔膜等核心部件产量数据，开展谐波减速器国产厂商（绿的谐波等）参数对比',
-      '协助分析覆盖企业毛利率、研发费用率、ROE、资本开支等财务指标，参与定期财务简报撰写',
-      '使用Choice/Wind金融终端、Excel财务建模工具，产出研究报告供基金经理参考',
-    ],
-    highlightsEn: [
-      'Deeply involved in in-depth research reports on Sanhua (auto parts) and Xiamen Tungsten (tungsten & molybdenum), built DCF and relative valuation models (PE/PEG)',
-      'Continuously tracked lithium battery industry leaders CATL and Ganfeng Lithium, compiled 20+ meeting minutes from listed company visits and industry conferences',
-      'Updated monthly production data for cathode/anode/separator components, conducted parameter comparison of domestic harmonic reducer manufacturers (e.g., Leadshine)',
-      'Assisted in analyzing financial metrics including gross margin, R&D expense ratio, ROE, capex for covered companies, contributed to regular financial briefing drafts',
-      'Utilized Choice/Wind financial terminals and Excel financial modeling tools to produce research reports for fund managers\' reference',
+      'Built multi-hop reasoning and fact-checking query datasets, optimized LLM logical closure in long-chain search; delivered high-quality evaluation data for SFT/RLHF pipelines',
+      'Designed and built Pandas/SQL data analysis evaluation sets; verified model-generated code correctness; identified and analyzed statistical bias Bad Cases',
+      'Responsible for vertical category data quality control; pass-rate consistently ranked top in project; directly supported Doubao model version iterations',
     ],
     highlightsBold: [0, 1],
-    logo: '/logos/csc.svg',
+    logo: '',
+  },
+  {
+    company: 'Kazama（KusaPics）',
+    companyEn: 'Kazama (KusaPics)',
+    role: 'AI产品实习生',
+    roleEn: 'AI Product Intern',
+    period: '2025年7月 - 2025年8月',
+    periodEn: 'Jul 2025 - Aug 2025',
+    highlights: [
+      '设计并验证「每日灵感」新功能：基于用户调研与竞品分析识别 onboarding 痛点，功能上线后新用户转化率提升 22%，DAU 提升 18%',
+      '基于 Discord 数据清洗构建用户分群体系（创作者/消费者/商业客户），定位高频使用模式，协助团队进行产品优先级排序',
+      '产出 Midjourney 等竞品深度对比报告，分析商业化路径与用户留存策略，输出产品迭代方向建议',
+      '期间参与斯坦福硅谷研学项目（全额资助，多轮全英面试录取）：修读 Design Thinking、Business Model Canvas 课程，走访 Google / NVIDIA，与 10+ 家 VC 投资人交流',
+    ],
+    highlightsEn: [
+      'Designed and validated "Daily Inspiration" feature: identified onboarding pain points via user research and competitive analysis; new user conversion rate +22%, DAU +18% after launch',
+      'Built user segmentation framework from Discord data (creator / consumer / commercial); identified high-frequency usage patterns to assist feature prioritization',
+      'Produced in-depth competitive benchmarking reports on Midjourney and peers; provided product iteration recommendations',
+      'Participated in Stanford Silicon Valley Program (fully funded, selected via multi-round English interviews): Design Thinking & Business Model Canvas at Stanford GSB; visited Google/NVIDIA; engaged with 10+ VCs',
+    ],
+    highlightsBold: [0, 3],
+    logo: '',
+  },
+  {
+    company: 'IP知识付费产品（自主创业）',
+    companyEn: 'Knowledge IP Product (Entrepreneurship)',
+    role: '创始团队成员',
+    roleEn: 'Founding Team Member',
+    period: '2024年1月 - 2025年6月',
+    periodEn: 'Jan 2024 - Jun 2025',
+    highlights: [
+      '主导产品策略转型：将产品从实体书形态转型为"课程式学习产品"（直播+社群订阅模式），转型后实体产品毛收入提升 180%',
+      '主导产品落地页 A/B 测试：点击率（CTR）从 1.23% 提升至 1.85%（+50%），客单价（ATV）提升 75%',
+      '建立多平台内容矩阵（B站、小红书、公众号、直播），运营账号实现用户留存与复购增长',
+      '集成 Kimi、腾讯元宝等 AI 模型强化 IP 品牌价值，探索 AI + 知识付费产品的新商业路径',
+    ],
+    highlightsEn: [
+      'Led product strategy pivot from physical book to "course-style learning product" (live + community subscription); gross revenue +180% after launch',
+      'Led A/B testing on product landing page: CTR improved from 1.23% to 1.85% (+50%); average transaction value (ATV) +75%',
+      'Built multi-platform content matrix (Bilibili, Xiaohongshu, WeChat, Live streaming); grew user retention and repurchase',
+      'Integrated Kimi and Tencent Yuanbao AI models to enhance IP brand value; explored AI + knowledge product business models',
+    ],
+    highlightsBold: [0, 1],
+    logo: '',
   },
 ];
 
 const projects = [
   {
-    title: '股票行业相似度与反转策略研究',
-    titleEn: 'Stock Industry Similarity and Reversal Strategy Research',
-    subtitle: '基于年报MD&A文本的算法分类与信息扩散效应',
-    subtitleEn: 'Algorithmic Classification and Information Diffusion based on Annual MD&A Text',
-    tech: ['Python', 'Pandas', 'BERT', 'GLM-4', 'Cosine Similarity', 'Louvain', 'T-test', 'ANOVA'],
-    objective: '探索基于MD&A文本相似度的算法行业分类能否更精准捕捉股票间基本面关联，从而改进A股反转策略并识别信息扩散规律。',
-    objectiveEn: 'Explore whether algorithm-based industry classification using MD&A text similarity can better capture fundamental connections among stocks, improving A-share reversal strategies and identifying information diffusion patterns.',
-    methodology: '研究分为四个部分：(1) Embedding模型比较：对比TF-IDF、BERT、FinBERT、LongBERT、BGE-M3，选取组内/组间分离度最高的模型；(2) Louvain社区检测：基于相似度矩阵构建加权图，使用Louvain算法进行无监督行业分类，与证监会分类对比；(3) 行业反转策略回测：在算法分类与证监会分类下分别构造输家-赢家组合，比较策略表现；(4) Lead-Lag信息扩散分析：验证相似股票间是否存在收益预测关系，构建多空组合。',
-    methodologyEn: 'Research comprises four parts: (1) Embedding model comparison: compare TF-IDF, BERT, FinBERT, LongBERT, BGE-M3 to select model with best intra/inter-group separation; (2) Louvain community detection: build weighted graph from similarity matrix, apply Louvain algorithm for unsupervised industry classification, compare with CSRC; (3) Industry reversal strategy backtest: construct loser-winner portfolios under both classification schemes and compare performance; (4) Lead-Lag information diffusion: test whether similar stocks exhibit return predictability, construct long-short portfolios.',
-    design: '研究设计采用实证分析框架。使用2012-2024年A股年报MD&A文本，基于选定的Embedding模型计算股票间余弦相似度。通过已知高同质性行业（银行、白酒、新能源车、航空）验证模型有效性。Louvain算法参数通过模块度最大化确定。反转策略形成期与持有期网格为{2,4,6,8}周，评估指标包括年化收益、夏普比率、最大回撤。Lead-Lag分析中，每周识别极端收益领先股，追踪其top-K相似跟随股的未来收益，使用t检验检验显著性。',
-    designEn: 'Research design adopts empirical framework. Use 2012-2024 A-share annual MD&A texts to compute pairwise cosine similarities based on selected embedding model. Validate model effectiveness using known homogeneous industries (banking, liquor, NEV, airlines). Louvain parameters optimized via modularity maximization. Reversal strategy formation/holding periods grid: {2,4,6,8} weeks; performance metrics include annualized return, Sharpe ratio, max drawdown. Lead-Lag analysis: weekly identify extreme return leaders, track future returns of top-K similar followers, test significance with t-tests.',
-    status: '进行中 (2025年8月 - 至今)',
-    statusEn: 'Ongoing (Aug 2025 - Present)',
+    title: '城市交通智能控制系统',
+    titleEn: 'Adaptive Urban Traffic Signal Control System',
+    subtitle: '基于动态多目标强化学习的自适应交通信号控制（硕士核心科研）',
+    subtitleEn: 'Dynamic Multi-Objective RL-based Adaptive Traffic Signal Control (Master\'s Thesis)',
+    tech: ['Python', 'PyTorch', 'SUMO', 'PPO', 'Actor-Critic', 'Pareto优化', 'CRITIC权重'],
+    objective: '设计面向复杂城市交通场景的自适应信号控制系统，解决传统固定时长方案在动态交通流下效率低、公平性差的问题，实现多目标（通行效率 + 排队公平性）的动态权衡。',
+    objectiveEn: 'Design an adaptive traffic signal control system for complex urban scenarios, addressing inefficiency and fairness issues of fixed-timing approaches under dynamic traffic flow; achieve dynamic multi-objective (efficiency + fairness) trade-off.',
+    methodology: '提出 CDT-PPO 框架（双塔 Actor-Critic，连续状态空间决策），融合前景理论构建 SUDI（时空紧迫性离散指数），并引入 CRITIC 动态权衡机制实时调整目标权重，赋予系统元认知能力。',
+    methodologyEn: 'Proposed CDT-PPO framework (dual-tower Actor-Critic, continuous state-space decision); combined Prospect Theory to construct SUDI (Spatio-temporal Urgency Discrete Index); introduced CRITIC dynamic trade-off mechanism for real-time weight adjustment, enabling metacognitive capability.',
+    design: '在 SUMO 仿真环境搭建 5 类高压场景（动态潮汐流、冲击波等）进行消融实验。评估指标：平均等待时间、P95 尾延迟、公平性指数。目标期刊：IEEE T-ITS（顶刊）。',
+    designEn: 'Built simulation environment in SUMO with 5 high-stress scenarios (dynamic tidal flow, shock waves, etc.) for ablation experiments. Metrics: average wait time, P95 tail latency, fairness index. Target journal: IEEE T-ITS.',
+    status: '进行中，投稿准备中 (2025.01 - 至今)',
+    statusEn: 'Ongoing, preparing for submission (Jan 2025 - Present)',
   },
   {
-    title: '投资者情绪指数与期货价格发现',
-    titleEn: 'Investor Sentiment Index and Futures Price Discovery',
-    subtitle: '基于股吧文本挖掘的高频情绪指数构建',
-    subtitleEn: 'Constructing High-Frequency Sentiment Index from Forum Text Mining',
-    tech: ['Python', 'Requests', 'BeautifulSoup', 'FDA', 'Text Mining', 'Sentiment Lexicon', 'VAR'],
-    objective: '爬取东方财富股吧数据，构建高频投资者情绪指数，检验其对股指期货市场价格发现功能的影响。重点解决高频情绪与低频期货数据的频率不匹配问题。',
-    objectiveEn: 'Scrape East Money forum data to construct high-frequency investor sentiment index and test its impact on price discovery of stock index futures. Focus on addressing mixed-frequency issue between high-frequency sentiment and low-frequency futures data.',
-    methodology: '每日爬取股吧帖子；采用中文情感词典进行文本情感分析，构建日度情绪指数；运用函数化数据分析(FDA)进行混频融合，将日度情绪转化为周度/月度频率以匹配期货数据；使用VAR模型和脉冲响应函数(IRF)检验情绪对价格发现的动态影响机制。',
-    methodologyEn: 'Daily scraping of forum posts; apply Chinese sentiment lexicon for textual analysis to construct daily sentiment index; use Functional Data Analysis (FDA) for mixed-frequency fusion to convert daily sentiment to weekly/monthly frequency matching futures data; employ VAR and Impulse Response Functions to test dynamic impact mechanism.',
-    design: '研究设计采用高频数据建模。情绪指数构建流程包括：数据爬取、文本清洗、情感打分、日度聚合。FDA混频方法将日度情绪转化为与期货周度收益率匹配的频率。VAR模型设定为多变量时间序列，包含期货收益率、情绪指数、成交量等变量。脉冲响应函数追踪情绪冲击对价格发现的动态效应。稳健性检验包括不同情感词典、不同 aggregated 频率、不同滞后阶数。',
-    designEn: 'Research design employs high-frequency data modeling. Sentiment index construction includes: data scraping, text cleaning, sentiment scoring, daily aggregation. FDA converts daily sentiment to weekly frequency matching futures returns. VAR model includes futures returns, sentiment index, trading volume. IRF tracks dynamic effect of sentiment shock on price discovery. Robustness checks: alternative lexicons, different aggregation frequencies, different lag orders.',
-    status: '已结项 (2022年4月 - 2024年4月)',
-    statusEn: 'Completed (Apr 2022 - Apr 2024)',
+    title: '交通AI大模型与平台（Vibe Coding方向）',
+    titleEn: 'AI Traffic Platform (Vibe Coding)',
+    subtitle: '基于 Claude Code 的城市交通 AI 应用场景规划与平台设计',
+    subtitleEn: 'Urban Traffic AI Application Planning & Platform Design via Claude Code',
+    tech: ['Claude Code', 'Vibe Coding', 'Next.js', 'Python', 'AI Agent', 'SaaS设计'],
+    objective: '基于自动驾驶与城市交通的行业经验，利用 Claude Code 探索 Vibe Coding 开发范式，规划城市级交通 AI 应用场景，设计 1+N+X 平台架构（基础设施→应用层→上层业务）。',
+    objectiveEn: 'Leveraging domain knowledge in autonomous driving and urban traffic, explore Vibe Coding paradigm with Claude Code; plan city-level AI traffic application scenarios; design 1+N+X platform architecture (infrastructure → application layer → business layer).',
+    methodology: '识别 25 个城市交通片区 AI 应用场景，从交通片区使用量映射 AI 落地方案；结合 AI Agent、SaaS 商业模式与知识 IP 产品的运营经验进行商业化路径设计。',
+    methodologyEn: 'Identified 25 city-level traffic AI application scenarios, mapped AI deployment solutions from traffic zone usage data; combined AI Agent, SaaS business model, and knowledge IP operation experience for commercialization path design.',
+    design: '使用 Claude Code 进行全栈 Vibe Coding 开发实践（前端 Next.js + 后端 Python），同步开发了 ESS 路测数据自动整理工具，验证 AI 辅助开发效率提升路径。',
+    designEn: 'Full-stack Vibe Coding practice with Claude Code (Next.js frontend + Python backend); concurrently built ESS roadtest data automation tool to validate AI-assisted development efficiency gains.',
+    status: '进行中 (2025.12 - 至今)',
+    statusEn: 'Ongoing (Dec 2025 - Present)',
   },
   {
-    title: '招商银行数字金融训练营',
-    titleEn: 'China Merchants Bank Digital Finance Camp',
-    subtitle: '用户行为预测与AI营销智能体',
-    subtitleEn: 'User Behavior Prediction and AI Marketing Agent',
-    tech: ['Python', 'Pandas', 'Scikit-learn', 'BERT', 'Flask', 'API Design'],
-    objective: '开发用户广告点击预测、资讯分类模型以及AI营销智能体，提升招商银行数字金融场景的转化率与用户体验。',
-    objectiveEn: 'Develop user ad click prediction, news classification models, and AI marketing agent to boost conversion rates and user experience in CMB digital finance scenarios.',
-    methodology: '采用移动窗口训练规避数据泄露；使用BERT-base-chinese对用户咨询文本进行多分类（8类意图识别）；基于Flask搭建轻量级API服务；Pandas进行特征工程与AUC优化。',
-    methodologyEn: 'Applied moving window training to prevent data leakage; used BERT-base-chinese for multi-class text classification (8 intent categories); built lightweight API service with Flask; feature engineering and AUC optimization with Pandas.',
-    design: '项目采用端到端机器学习工作流。数据预处理包括缺失值处理、文本分词、停用词去除。特征工程使用TF-IDF和BERT嵌入。模型训练采用时间序列交叉验证，移动窗口避免未来信息泄露。API设计遵循RESTful原则，支持实时推理。评估指标包括AUC、准确率、F1-score。',
-    designEn: 'Project adopted end-to-end ML workflow. Data preprocessing: missing value handling, tokenization, stopword removal. Feature engineering: TF-IDF and BERT embeddings. Model training used time-series cross-validation with moving window to prevent look-ahead bias. API followed RESTful principles for real-time inference. Evaluation metrics: AUC, accuracy, F1-score.',
-    status: '已完成 (2025年7月 - 2025年8月)',
-    statusEn: 'Completed (Jul 2025 - Aug 2025)',
+    title: 'IP知识付费产品 — 0到1增长',
+    titleEn: 'Knowledge IP Product — 0-to-1 Growth',
+    subtitle: '全流程产品策略转型与数据驱动增长',
+    subtitleEn: 'Full Product Strategy Transformation & Data-Driven Growth',
+    tech: ['A/B Testing', 'Google Analytics', 'Funnel Analysis', 'AI Integration', 'Kimi', '用户调研'],
+    objective: '从 0 到 1 构建知识付费产品，完成从实体书向数字化课程产品的商业转型，通过数据驱动持续优化转化与增长。',
+    objectiveEn: 'Build a knowledge-paid product from 0 to 1; complete commercial transformation from physical book to digital course product; continuously optimize conversion and growth through data-driven methods.',
+    methodology: '用户分层与需求调研 → 产品形态转型设计 → 多平台矩阵运营 → A/B 测试落地页优化 → AI 模型（Kimi / 腾讯元宝）集成增强产品体验。',
+    methodologyEn: 'User segmentation & needs research → product format transformation → multi-platform matrix operations → A/B testing landing page optimization → AI model (Kimi / Tencent Yuanbao) integration for enhanced user experience.',
+    design: '核心指标：转型后实体产品毛收入 +180%；落地页 CTR 从 1.23% → 1.85%（+50%）；ATV +75%。覆盖 B站/小红书/公众号/直播全平台矩阵。',
+    designEn: 'Key metrics: physical product gross revenue +180% after transformation; landing page CTR 1.23% → 1.85% (+50%); ATV +75%. Coverage: Bilibili / Xiaohongshu / WeChat / Live streaming full-platform matrix.',
+    status: '已结项 (2024.01 - 2025.06)',
+    statusEn: 'Completed (Jan 2024 - Jun 2025)',
   },
 ];
 
 const skillsData = {
-  programming: ['Python', 'SQL', 'VBA'],
-  dataTools: ['Pandas', 'NumPy', 'Scikit-learn', 'BERT', 'MySQL', 'Wind/Choice', 'Power BI', 'Jira', 'Confluence'],
-  finance: ['财务分析', 'DCF估值', '行业研究', '财务建模', '风险评估', '资产估值'],
+  programming: ['Python', 'SQL', 'TypeScript', 'Next.js', 'Bash'],
+  dataTools: ['Pandas', 'PyTorch', 'SUMO仿真', 'Claude Code', 'VSim/MViz', 'ESS', 'Feishu API', 'Google Analytics'],
+  finance: ['ADAS PPM流程（TLM/RPA/PR/FO）', '强化学习（PPO/D3QN）', 'Vibe Coding / AI辅助开发', 'A/B测试', '数据标注与评测集构建', '用户调研与竞品分析'],
   certifications: [
-    'CPA：通过会计、财务成本管理、经济法、公司战略与风险管理（4科）',
-    '税务师（CTA）：通过财务与会计、税法一、税法二、涉税服务实务（4科）',
-    '初级会计专业技术资格证书',
-    '基金从业资格证书',
-    'CET-6（英语六级）',
+    'CET-4（大学英语四级）：593分',
+    'CET-6（大学英语六级）：529分',
+    'Momenta ADAS PPM实习（Harz平台 CP Planning方向）',
+    '斯坦福硅谷研学项目（全额资助）',
   ],
   certificationsEn: [
-    'CPA: 4 subjects passed (Accounting, Financial Management, Economic Law, Corporate Strategy & Risk Management)',
-    'CTA (Tax Advisor): 4 subjects passed (Financial & Accounting, Tax Law I, Tax Law II, Tax Service Practice)',
-    'Junior Accounting Qualification Certificate',
-    'Fund Practitioner Certificate',
-    'CET-6 (College English Test Band 6)',
+    'CET-4 (College English Test Band 4): 593',
+    'CET-6 (College English Test Band 6): 529',
+    'Momenta ADAS PPM Internship (Harz Platform, CP Planning)',
+    'Stanford Silicon Valley Program (Fully Funded)',
   ],
-  languages: ['中文（母语）', 'English（CET-6，专业工作语言）'],
+  languages: ['中文（母语）', 'English（CET-6，可进行学术和商务交流）'],
 };
 
 const skillCategories = [
-  { key: 'programming', icon: Code, label: '编程语言' },
-  { key: 'dataTools', icon: Database, label: '数据分析工具' },
-  { key: 'finance', icon: BarChart3, label: '金融能力' },
+  { key: 'programming', icon: Code, label: '编程与开发' },
+  { key: 'dataTools', icon: Database, label: 'AI与工具链' },
+  { key: 'finance', icon: BarChart3, label: '专业能力' },
 ];
 
 // ── Study notes default data ──────────────────────────────────────────────
 const defaultNotes: NoteItem[] = [
   {
     id: 'default-1',
-    title: '税二·错题复盘·综合提高（做题不顺畅）',
-    tag: 'CTA 税法二',
+    title: 'PPM工作流梳理：TLM → RPA → PR → FO 全流程笔记',
+    tag: 'ADAS PPM',
+    href: '#',
+  },
+  {
+    id: 'default-2',
+    title: 'Vibe Coding 实践：Claude Code 开发 ESS 路测工具总结',
+    tag: 'Claude Code',
     href: '#',
   },
 ];
@@ -335,25 +329,25 @@ function AnimatedStat({ target, decimals = 0, suffix = '', prefix = '', label }:
 }
 
 const METRICS_ZH = [
-  { target: 4,     decimals: 0, suffix: '',   prefix: '',     label: '段实习经历' },
-  { target: 60,    decimals: 0, suffix: '%',  prefix: '',     label: '效率提升' },
-  { target: 80,    decimals: 0, suffix: '%',  prefix: '',     label: '人工时间节省' },
-  { target: 4,     decimals: 0, suffix: '',   prefix: 'CPA ', label: '科目通过' },
-  { target: 92.21, decimals: 2, suffix: '',   prefix: '',     label: 'GPA 专业前10%' },
+  { target: 4,     decimals: 0, suffix: '',   prefix: '',  label: '段实习经历' },
+  { target: 22,    decimals: 0, suffix: '%',  prefix: '+', label: '新用户转化率提升' },
+  { target: 180,   decimals: 0, suffix: '%',  prefix: '+', label: '产品毛收入提升' },
+  { target: 10,    decimals: 0, suffix: '+',  prefix: '',  label: '功能版本迭代' },
+  { target: 90.81, decimals: 2, suffix: '',   prefix: '',  label: '硕士均分' },
 ];
 const METRICS_EN = [
-  { target: 4,     decimals: 0, suffix: '',   prefix: '',     label: 'Internships' },
-  { target: 60,    decimals: 0, suffix: '%',  prefix: '',     label: 'Efficiency Gain' },
-  { target: 80,    decimals: 0, suffix: '%',  prefix: '',     label: 'Time Saved' },
-  { target: 4,     decimals: 0, suffix: '',   prefix: 'CPA ', label: 'Subjects Passed' },
-  { target: 92.21, decimals: 2, suffix: '',   prefix: '',     label: 'GPA Top 10%' },
+  { target: 4,     decimals: 0, suffix: '',   prefix: '',  label: 'Internships' },
+  { target: 22,    decimals: 0, suffix: '%',  prefix: '+', label: 'User Conversion Lift' },
+  { target: 180,   decimals: 0, suffix: '%',  prefix: '+', label: 'Revenue Growth' },
+  { target: 10,    decimals: 0, suffix: '+',  prefix: '',  label: 'Feature Iterations' },
+  { target: 90.81, decimals: 2, suffix: '',   prefix: '',  label: "Master's Avg Score" },
 ];
 
 // ── "Now" default items ───────────────────────────────────────────────────
 const defaultNow: NowItem[] = [
-  { emoji: '📚', category: '在读', categoryEn: 'Reading',  content: '点击编辑，填写你在读的书' },
-  { emoji: '🎬', category: '在看', categoryEn: 'Watching', content: '点击编辑，填写在看的剧或番' },
-  { emoji: '💬', category: '在聊', categoryEn: 'Thinking', content: '点击编辑，填写最近在思考的话题' },
+  { emoji: '🚗', category: '在做', categoryEn: 'Working',  content: 'Momenta ADAS PPM实习 — Harz CP Planning 功能版本管理与场景分析' },
+  { emoji: '⌨️', category: '在学', categoryEn: 'Learning', content: 'Vibe Coding 深度实践：用 Claude Code 构建交通 AI 平台，探索 AI 辅助全栈开发' },
+  { emoji: '💬', category: '在想', categoryEn: 'Thinking', content: '技术型 PM 的壁垒在哪里？如何把强化学习背景和 AI 工具链融合成真正的差异化能力' },
 ];
 
 /** Mouse cursor sparkle effect */
@@ -516,8 +510,8 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <a href="#" className="flex items-center gap-2.5 hover:opacity-80 transition">
-              <div className="w-9 h-9 bg-gradient-to-br from-primary-500 to-primary-700 rounded-xl flex items-center justify-center text-white text-sm font-bold shadow-md">YN</div>
-              <span className="font-semibold text-gray-900 tracking-tight">Your Name</span>
+              <div className="w-9 h-9 bg-gradient-to-br from-primary-500 to-primary-700 rounded-xl flex items-center justify-center text-white text-sm font-bold shadow-md">JN</div>
+              <span className="font-semibold text-gray-900 tracking-tight">Junhao Niu</span>
             </a>
 
             {/* Desktop nav */}
@@ -658,8 +652,8 @@ export default function Home() {
               <div className="flex flex-wrap gap-2.5 pt-1">
                 {[
                   lang === 'zh' ? '4段实习经历' : '4 Internships',
-                  lang === 'zh' ? 'CPA 4科通过' : 'CPA 4 Subjects',
-                  lang === 'zh' ? '3个研究项目' : '3 Research Projects',
+                  lang === 'zh' ? 'Vibe Coding 实践者' : 'Vibe Coding Practitioner',
+                  lang === 'zh' ? '3个研究项目' : '3 Projects',
                 ].map((chip, i) => (
                   <span key={i} className="stat-chip text-sm text-gray-600 bg-gray-50 border border-gray-200 px-3 py-1.5 rounded-lg font-medium cursor-default">
                     {chip}
@@ -676,7 +670,7 @@ export default function Home() {
                   {t.hero.contact}
                 </a>
                 <a
-                  href="https://github.com/your_github_username"
+                  href="https://github.com/niujunhao149"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 border-2 border-gray-200 text-gray-700 px-6 py-3 rounded-xl hover:border-primary-400 hover:text-primary-600 transition font-medium"
@@ -691,7 +685,7 @@ export default function Home() {
             <div className="flex-shrink-0">
               <div className="relative float-animate">
                 <div className="w-72 h-72 md:w-80 md:h-80 rounded-2xl overflow-hidden border-2 border-primary-100 shadow-2xl" style={{ boxShadow: '0 0 40px rgba(59,130,246,0.15), 0 25px 50px rgba(0,0,0,0.12)' }}>
-                  <img src={`${BASE}/images/profile.jpg`} alt="Your Name" className="w-full h-full object-cover" />
+                  <img src={`${BASE}/images/profile.jpg`} alt="牛俊浩" className="w-full h-full object-cover" />
                 </div>
                 {/* Status badge */}
                 <div className="absolute -bottom-4 -right-4 bg-white rounded-2xl shadow-xl p-4 border border-gray-100">
@@ -772,12 +766,12 @@ export default function Home() {
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl flex items-center justify-center border border-primary-100 p-1.5">
                       <img
-                        src={`${BASE}/logos/cumt_logo.svg`}
-                        alt="CUMT"
+                        src={`${BASE}/logos/tju_logo.svg`}
+                        alt="TJU"
                         className="w-full h-full object-contain"
                         onError={e => { e.currentTarget.style.display = 'none'; (e.currentTarget.nextElementSibling as HTMLElement | null)!.style.display = 'flex'; }}
                       />
-                      <div className="hidden w-full h-full items-center justify-center text-primary-700 font-bold text-xs">CUMT</div>
+                      <div className="hidden w-full h-full items-center justify-center text-primary-700 font-bold text-xs">TJU</div>
                     </div>
                     <div>
                       <h3 className="font-bold text-gray-900 text-sm">{t.about.bachelorUniv}</h3>
@@ -1233,21 +1227,21 @@ export default function Home() {
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
             <a
-              href="mailto:your_email@example.com"
+              href="mailto:junhao@tju.edu.cn"
               className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/20 hover:scale-[1.03] transition-all duration-200"
             >
               <Mail className="mx-auto mb-3" size={26} />
               <h3 className="font-semibold mb-1 text-sm">{t.contact.email}</h3>
-              <p className="text-primary-100 text-xs">your_email@example.com</p>
+              <p className="text-primary-100 text-xs">junhao@tju.edu.cn</p>
             </a>
             <a
-              href="https://github.com/your_github_username"
+              href="https://github.com/niujunhao149"
               target="_blank" rel="noopener noreferrer"
               className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/20 hover:scale-[1.03] transition-all duration-200"
             >
               <Github className="mx-auto mb-3" size={26} />
               <h3 className="font-semibold mb-1 text-sm">{t.contact.github}</h3>
-              <p className="text-primary-100 text-xs">your_github_username</p>
+              <p className="text-primary-100 text-xs">niujunhao149</p>
             </a>
             <a
               href="https://xiaohongshu.com"
@@ -1268,12 +1262,12 @@ export default function Home() {
               <p className="text-primary-100 text-xs">你的B站ID</p>
             </a>
             <a
-              href="tel:+86XXXXXXXXXX"
+              href="tel:+8613943142907"
               className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/20 hover:scale-[1.03] transition-all duration-200"
             >
               <Phone className="mx-auto mb-3" size={26} />
               <h3 className="font-semibold mb-1 text-sm">{t.contact.phone}</h3>
-              <p className="text-primary-100 text-xs">+86 XXX XXXX XXXX</p>
+              <p className="text-primary-100 text-xs">+86 139 4314 2907</p>
             </a>
           </div>
 
@@ -1294,8 +1288,8 @@ export default function Home() {
           )}
           <div className="w-full flex flex-col md:flex-row justify-between items-center gap-3 border-t border-gray-800 pt-5">
             <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center text-white text-sm font-bold">YN</div>
-              <span className="font-medium">Your Name</span>
+              <div className="w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center text-white text-sm font-bold">JN</div>
+              <span className="font-medium">Junhao Niu</span>
             </div>
             <p className="text-gray-500 text-sm">© {new Date().getFullYear()} · Built with Next.js & Tailwind CSS</p>
           </div>

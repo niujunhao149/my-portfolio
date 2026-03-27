@@ -7,23 +7,23 @@ export class ResumeConverter {
   static getBasicInfo(lang: 'zh' | 'en') {
     if (lang === 'zh') {
       return {
-        name: '你的名字',
-        title: '金融分析师 | 数据科学 | 量化研究',
-        email: 'your_email@example.com',
-        phone: '+86 XXXXXXXXXXX',
-        github: 'github.com/your_github_username',
-        location: '你的城市',
-        education: '你的大学 硕士（在读）| 本科大学 本科',
+        name: '牛俊浩',
+        title: 'ADAS PPM | 系统工程 | AI产品 | Vibe Coding',
+        email: 'junhao@tju.edu.cn',
+        phone: '+86 139 4314 2907',
+        github: 'github.com/niujunhao149',
+        location: '天津 / 北京',
+        education: '天津大学 系统工程硕士（在读）| 天津大学 工业工程本科',
       };
     } else {
       return {
-        name: 'Your Name',
-        title: 'Financial Analyst | Data Scientist | Quantitative Research',
-        email: 'your_email@example.com',
-        phone: '+86 XXXXXXXXXXX',
-        github: 'github.com/your_github_username',
-        location: 'Your City, China',
-        education: "Your University - Master's in Finance (in progress) | Bachelor's University - Bachelor's in Finance",
+        name: 'Junhao Niu',
+        title: 'ADAS PPM | Systems Engineering | AI Product | Vibe Coding',
+        email: 'junhao@tju.edu.cn',
+        phone: '+86 139 4314 2907',
+        github: 'github.com/niujunhao149',
+        location: 'Tianjin / Beijing, China',
+        education: "Tianjin University - Master's in Systems Engineering (in progress) | Tianjin University - Bachelor's in Industrial Engineering",
       };
     }
   }

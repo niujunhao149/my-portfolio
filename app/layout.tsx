@@ -2,18 +2,18 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Your Name | Portfolio",
-  description: "Personal portfolio — Finance student specializing in quantitative analysis, LLM research, and financial data analytics.",
-  keywords: ["Finance", "Quantitative Analysis", "LLM", "Python", "CPA", "Portfolio", "金融分析", "量化研究", "数据分析"],
-  authors: [{ name: "Your Name" }],
-  creator: "Your Name",
+  title: "牛俊浩 | Junhao Niu — Portfolio",
+  description: "天津大学系统工程硕士在读，Momenta ADAS规划实习生（PPM方向），擅长AI辅助开发（Vibe Coding / Claude Code）与自动化工具设计。",
+  keywords: ["ADAS", "PPM", "自动驾驶", "系统工程", "Vibe Coding", "Claude Code", "AI产品经理", "天津大学", "Junhao Niu", "牛俊浩"],
+  authors: [{ name: "Junhao Niu" }],
+  creator: "Junhao Niu",
   openGraph: {
     type: "website",
-    locale: "en_US",
-    url: "https://your-username.github.io",
-    title: "Your Name | Portfolio",
-    description: "Finance student with expertise in quantitative analysis, LLM research, and financial data analytics.",
-    siteName: "Your Name Portfolio",
+    locale: "zh_CN",
+    url: "https://niujunhao149.github.io/my-portfolio",
+    title: "牛俊浩 | Junhao Niu — Portfolio",
+    description: "天津大学系统工程硕士在读，Momenta ADAS规划实习生（PPM方向），擅长Vibe Coding与自动化工具设计。",
+    siteName: "Junhao Niu Portfolio",
   },
   icons: {
     icon: "/favicon.svg",
