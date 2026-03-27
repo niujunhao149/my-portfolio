@@ -489,7 +489,7 @@ export default function Home() {
 
             {/* Desktop nav */}
             <div className="hidden md:flex items-center gap-7">
-              {(['about', 'experience', 'projects', 'skills', 'now', 'notes', 'contact'] as const).map(item => (
+              {(['about', 'experience', 'projects', 'skills', 'now', 'contact'] as const).map(item => (
                 <a key={item} href={`#${item}`} className={`text-sm font-medium transition-colors relative group ${activeSection === item ? 'text-primary-600' : 'text-gray-600 hover:text-primary-600'}`}>
                   {t.nav[item]}
                   <span className={`absolute -bottom-1 left-0 h-0.5 bg-primary-500 transition-all duration-300 ${activeSection === item ? 'w-full' : 'w-0 group-hover:w-full'}`} />
@@ -555,7 +555,7 @@ export default function Home() {
         {mobileMenuOpen && (
           <div className="md:hidden border-t border-gray-100 bg-white px-6 pt-4 pb-5">
             <div className="space-y-1 mb-4">
-              {(['about', 'experience', 'projects', 'skills', 'now', 'notes', 'contact'] as const).map(item => (
+              {(['about', 'experience', 'projects', 'skills', 'now', 'contact'] as const).map(item => (
                 <a
                   key={item}
                   href={`#${item}`}
@@ -1082,7 +1082,7 @@ export default function Home() {
       )}
 
       {/* ── Notes ── */}
-      {(!secHidden('notes') || isAdmin) && (
+      {false && (
       <section id="notes" className="py-20 px-6 bg-gray-50 scroll-mt-24 relative">
         <Veil id="notes" />
         <div className={dim('notes')}><div className="max-w-6xl mx-auto">
@@ -1198,10 +1198,10 @@ export default function Home() {
           <p className="text-primary-100 mb-12 max-w-xl mx-auto leading-relaxed">
             <E id={`contact.${lang}.message`} def={t.contact.message} />
           </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+          <div className="flex flex-wrap justify-center gap-4">
             <a
               href="mailto:junhao@tju.edu.cn"
-              className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/20 hover:scale-[1.03] transition-all duration-200"
+              className="w-44 text-center bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/20 hover:scale-[1.03] transition-all duration-200"
             >
               <Mail className="mx-auto mb-3" size={26} />
               <h3 className="font-semibold mb-1 text-sm">{t.contact.email}</h3>
@@ -1210,7 +1210,7 @@ export default function Home() {
             <a
               href="https://github.com/niujunhao149"
               target="_blank" rel="noopener noreferrer"
-              className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/20 hover:scale-[1.03] transition-all duration-200"
+              className="w-44 text-center bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/20 hover:scale-[1.03] transition-all duration-200"
             >
               <Github className="mx-auto mb-3" size={26} />
               <h3 className="font-semibold mb-1 text-sm">{t.contact.github}</h3>
@@ -1218,7 +1218,7 @@ export default function Home() {
             </a>
             <a
               href="tel:+8613943142907"
-              className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/20 hover:scale-[1.03] transition-all duration-200"
+              className="w-44 text-center bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/20 hover:scale-[1.03] transition-all duration-200"
             >
               <Phone className="mx-auto mb-3" size={26} />
               <h3 className="font-semibold mb-1 text-sm">{t.contact.phone}</h3>
