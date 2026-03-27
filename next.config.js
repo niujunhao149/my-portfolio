@@ -3,6 +3,9 @@ const nextConfig = {
   output: 'export',
   basePath: '/my-portfolio',
   assetPrefix: '/my-portfolio',
+  env: {
+    NEXT_PUBLIC_BASE_PATH: '/my-portfolio',
+  },
   trailingSlash: true,
   images: {
     unoptimized: true,

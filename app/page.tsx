@@ -6,6 +6,8 @@ import ResumeExportModal from '@/components/ResumeExportModal';
 import { STAR_DATA } from '@/lib/starData';
 import { useAdminContent, useNotesStore, NoteItem, useNowStore, NowItem, useHiddenSections } from '@/lib/adminStore';
 
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+
 // ── Admin context ──────────────────────────────────────────────────────────
 type AdminCtx = { isAdmin: boolean; get: (id: string, def: string) => string; save: (id: string, val: string) => void; };
 const AdminContext = createContext<AdminCtx>({ isAdmin: false, get: (_, d) => d, save: () => {} });
@@ -689,7 +691,7 @@ export default function Home() {
             <div className="flex-shrink-0">
               <div className="relative float-animate">
                 <div className="w-72 h-72 md:w-80 md:h-80 rounded-2xl overflow-hidden border-2 border-primary-100 shadow-2xl" style={{ boxShadow: '0 0 40px rgba(59,130,246,0.15), 0 25px 50px rgba(0,0,0,0.12)' }}>
-                  <img src="/images/profile.jpg" alt="Your Name" className="w-full h-full object-cover" />
+                  <img src={`${BASE}/images/profile.jpg`} alt="Your Name" className="w-full h-full object-cover" />
                 </div>
                 {/* Status badge */}
                 <div className="absolute -bottom-4 -right-4 bg-white rounded-2xl shadow-xl p-4 border border-gray-100">
@@ -746,7 +748,7 @@ export default function Home() {
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl flex items-center justify-center border border-primary-100 p-1.5">
                       <img
-                        src="/logos/tju_logo.svg"
+                        src={`${BASE}/logos/tju_logo.svg`}
                         alt="TJU"
                         className="w-full h-full object-contain"
                         onError={e => { e.currentTarget.style.display = 'none'; (e.currentTarget.nextElementSibling as HTMLElement | null)!.style.display = 'flex'; }}
@@ -770,7 +772,7 @@ export default function Home() {
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl flex items-center justify-center border border-primary-100 p-1.5">
                       <img
-                        src="/logos/cumt_logo.svg"
+                        src={`${BASE}/logos/cumt_logo.svg`}
                         alt="CUMT"
                         className="w-full h-full object-contain"
                         onError={e => { e.currentTarget.style.display = 'none'; (e.currentTarget.nextElementSibling as HTMLElement | null)!.style.display = 'flex'; }}
@@ -818,7 +820,7 @@ export default function Home() {
                   <div className="hidden md:flex flex-shrink-0 w-10 h-10 rounded-xl bg-white border-2 border-primary-200 shadow-sm items-center justify-center p-1.5 relative z-10 mt-4">
                     {exp.logo && (
                       <img
-                        src={exp.logo}
+                        src={`${BASE}${exp.logo}`}
                         alt={exp.company}
                         className="w-full h-full object-contain"
                         onError={e => { e.currentTarget.style.display = 'none'; }}
@@ -834,7 +836,7 @@ export default function Home() {
                         <div className="flex md:hidden w-10 h-10 rounded-xl bg-white border border-gray-100 shadow-sm items-center justify-center p-1.5 flex-shrink-0">
                           {exp.logo && (
                             <img
-                              src={exp.logo}
+                              src={`${BASE}${exp.logo}`}
                               alt={exp.company}
                               className="w-full h-full object-contain"
                               onError={e => { e.currentTarget.style.display = 'none'; }}
